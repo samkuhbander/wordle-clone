@@ -77,7 +77,6 @@ function playGame(word) {
       }
       tries++;
       displayTries();
-      console.log(word2);
     } else if (won == true) {
       alert("You win reset to play again!");
     }
